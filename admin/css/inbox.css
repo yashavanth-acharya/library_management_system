@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+      background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+      background: linear-gradient(to right, #25c481, #25b7c4);
+      font-family: 'Roboto', sans-serif;
+    /* background-size: cover; */
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    left: 10px;
+    
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: visible;
+    width: 250px;
+    height: 200px;
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    /* background-color:darkorange; */
+    box-shadow: 10px 10px 20px black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 25px ;
+    position: absolute;
+    /* z-index: 1; */
+    top: 10px;
+    left: 110%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #25c481 transparent transparent;
+  }
+  .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:linear-gradient( to right bottom,rgba(248, 0, 116,0.8) 50%,white 90%);
+    /* background-color: #111; */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: hidden;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    /* text-align: center; */
+  }
+    
+  .sidepanel a:nth-child(2):hover,
+a:nth-child(3):hover,
+a:nth-child(4):hover,
+a:nth-child(5):hover,
+a:nth-child(6):hover,
+a:nth-child(7):hover,
+a:nth-child(8):hover
+  {
+    color: #f1f1f1;
+    background:rgb(238, 25, 78);
+    transition: 0.9s ease;
+  
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    left: 10px;
+    top: -2px;
+    z-index: 1;
+    /* padding: 20px; */
+  }
+  
+  h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  

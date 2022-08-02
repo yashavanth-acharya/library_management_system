@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url('bimage/b4.jpg');
+    background-size: cover;
+}
+fieldset{
+    border: none;
+    text-align: center;
+    position: relative;
+    top: 30px
+}
+.con
+{
+    border: 1px solid black;
+    border-radius: 1px;
+    height: 500px;
+    width: 390px;
+    text-align: center;
+    position: absolute;
+    top:-200px;
+    left: 100px;
+    transform: translate(50%,50%);
+    background-color: white;
+    box-shadow: 2px 2px 3px black;
+    box-align: center;
+    z-index:-1;
+}
+input[type='text'],input[type='password']
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: lightyellow;
+    outline-style: none;
+    text-align: center;
+
+}
+input::placeholder{
+   text-align: center;
+}
+.iconu{
+    background-image: url('https://img.icons8.com/metro/26/000000/administrator-male.png');
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.iconp{
+    background-image: url('https://img.icons8.com/metro/26/000000/lock-2.png');
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+input[type='submit'],input[type='button']
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(62, 130, 255);
+    color: white;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+}
+.singup{
+    border: 1px solid black;
+    border-radius: 1px;
+    height: 70px;
+    width: 390px;
+    /* text-align: center; */
+    position: relative;
+    left: 0px;
+    top: 140px;
+    background-color: white;
+    box-shadow: 2px 2px 3px black;
+}
+.singup a{
+    position: relative;
+        top: 25px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        left: -10px;
+}
+.span{
+    position: relative;
+    top: 25px;
+    left: -10px;
+color: rgba(0,0,0,0.6);
+
+}
+.singup a:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    transition: .5s ease-out;
+}
+.frgot{
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.frgot:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: .5s ease-out;
+}
+.forgot
+{
+    width:50%;
+    height:70%;
+    z-index:2;
+     background:#fff;
+     left:300px;
+     position: relative;
+     top:10px;
+     padding: 20px;
+     border-radius: 5px;
+
+}
+.forgot fieldset input[type='text']{
+    border-radius: 1px;
+    height: 30px;
+    width: 300px;
+}
+.forgot fieldset{
+    top:1px;
+}
+.forgot fieldset input[type='Submit'],input[type='button']{
+   width: 100px;
+   height: 40px;
+   outline: none;
+}
+@media(max-width:400px) 
+{
+    body{
+        margin: 0px;
+        padding: 0px;
+        /* background-image:url('bimage/b4.jpg');
+        background-size: cover; */
+    }
+    fieldset{
+        border: none;
+        text-align: center;
+        position: relative;
+        top: 30px
+    }
+    .con
+    {
+        border: 1px solid black;
+        border-radius: 1px;
+        height: 500px;
+        width: 300px;
+        /* left: -5px; */
+        /* right: -100px; */
+        /* text-align: center; */
+        position: absolute;
+        margin-right: 20px;
+        margin-left: 10px;
+        transform: translate(-25%,50%);
+        background-color: white;
+        box-shadow: 2px 2px 3px black;
+        box-align: center;
+        padding: -10px;
+    }
+    input[type='text'],input[type='password']
+    {
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        font-size: 15px;
+        background-color: lightyellow;
+        outline-style: none;
+    
+    }
+    input[type='submit']
+    {
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: rgb(62, 130, 255);
+        color: white;
+    }
+    h1{
+        font-family: 'Pacifico', cursive;
+        font-size: 20px;
+    }
+    .singup{
+        border: none;
+        border-radius: 1px;
+        height: 50px;
+        width: 300px;
+        /* text-align: center; */
+        position: relative;
+        left: 25x;
+        top: 40px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .singup a{
+        position: relative;
+            top: 25px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            left: -1px;
+    }
+    .span{
+        position: relative;
+        top: 25px;
+        left: -1px;
+    color: rgba(0,0,0,0.6);
+    
+    }
+    .singup a:hover{
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+        transition: .5s ease-out;
+    }
+    .frgot{position: relative;
+        cursor: pointer;
+        top: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .frgot:hover{
+        color: blue;
+        text-decoration: underline;}
+        .forgot
+{
+    width:89%;
+    height:70%;
+    z-index:2;
+     background:#fff;
+     left:0px;
+     position: relative;
+     top:10px;
+     padding: 20px;
+     border-radius: 5px;
+
+}
+.forgot fieldset input[type='text']{
+    border-radius: 1px;
+    height: 30px;
+    width: 300px;
+}
+.forgot fieldset{
+    top:1px;
+}
+.forgot fieldset input[type='Submit'],input[type='button']{
+   width: 100px;
+   height: 40px;
+   outline: none;
+}
+         
+}
+@media(min-width:400px)
+{
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image:url('bimage/b4.jpg');
+        background-size: cover;
+    }
+    fieldset{
+        border: none;
+        text-align: center;
+        position: relative;
+        top: 30px
+    }
+    .con
+    {
+        border: 1px solid black;
+        border-radius: 1px;
+        height: 500px;
+        width: 350px;
+        text-align: center;
+        position: absolute;
+        top:-200px;
+        /* left: -150px; */
+        transform: translate(5%,50%);
+        background-color: white;
+        box-shadow: 2px 2px 3px black;
+        box-align: center;
+    }
+    input[type='text'],input[type='password']
+    {
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        font-size: 17px;
+        background-color: lightyellow;
+        outline-style: none;
+        text-align: center;
+    
+    }
+    input::placeholder{
+       text-align: center;
+    }
+    .iconu{
+        background-image: url('https://img.icons8.com/metro/26/000000/administrator-male.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    
+    }
+    .iconp{
+        background-image: url('https://img.icons8.com/metro/26/000000/lock-2.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    
+    }
+    input[type='submit']
+    {   position: relative;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        left:55px;
+        background-color: rgb(62, 130, 255);
+        color: white;
+    }
+    h1{
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+    }
+    .singup{
+        border: 1px solid black;
+        border-radius: 1px;
+        height: 70px;
+        width: 350px;
+        /* text-align: center; */
+        position: relative;
+        left: 0px;
+        top: 140px;
+        background-color: white;
+        box-shadow: 2px 2px 3px black;
+    }
+    .singup a{
+        cursor: pointer;
+        position: relative;
+            top: 25px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            left: -10px;
+    }
+    .span{
+        position: relative;
+        top: 25px;
+        left: -10px;
+    color: rgba(0,0,0,0.6);
+    
+    }
+    .singup a:hover{
+        color: blue;
+        text-decoration: underline;
+        transition: .5s ease-out;
+    }
+    .frgot{position: relative;
+        top: 80px;
+        left: -100px;
+        text-decoration: none;
+        color: black;
+    }
+    .frgot:hover{
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+        transition: .5s ease-out;
+    }
+    .forgot
+    {
+        width:80%;
+        height:70%;
+        z-index:2;
+         background:#fff;
+         left:24px;
+         position: relative;
+         top:10px;
+         padding: 20px;
+         border-radius: 5px;
+    
+    }
+    .forgot fieldset input[type='text']{
+        border-radius: 1px;
+        height: 30px;
+        width: 300px;
+    }
+    .forgot fieldset{
+        top:1px;
+    }
+    .forgot fieldset input[type='Submit'],input[type='button']{
+       width: 100px;
+       height: 40px;
+       outline: none;
+    }  
+    .forgot fieldset input[type='Submit']{
+        left: -10px;
+    }
+
+}
+@media(min-width:600px)
+{
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image:url('bimage/b4.jpg');
+        background-size: cover;
+    }
+    fieldset{
+        border: none;
+        text-align: center;
+        position: relative;
+        top: 30px
+    }
+    .con
+    {
+        border: 1px solid black;
+        border-radius: 1px;
+        height: 500px;
+        width: 390px;
+        text-align: center;
+        position: absolute;
+        top:-200px;
+        /* left: 50px; */
+        transform: translate(80%,50%);
+        background-color: white;
+        box-shadow: 2px 2px 3px black;
+        box-align: center;
+    }
+    input[type='text'],input[type='password']
+    {
+        height: 50px;
+        width: 300px;
+        border-radius: 5px;
+        font-size: 17px;
+        background-color: lightyellow;
+        outline-style: none;
+        text-align: center;
+    
+    }
+    input::placeholder{
+       text-align: center;
+    }
+    .iconu{
+        background-image: url('https://img.icons8.com/metro/26/000000/administrator-male.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    
+    }
+    .iconp{
+        background-image: url('https://img.icons8.com/metro/26/000000/lock-2.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    
+    }
+    input[type='submit']
+    {   position: relative;
+        height: 50px;
+        width: 300px;
+        left: 1px;
+        border-radius: 5px;
+        background-color: rgb(62, 130, 255);
+        color: white;
+    }
+    h1{
+        font-family: 'Pacifico', cursive;
+    }
+    .singup{
+        border: 1px solid black;
+        border-radius: 1px;
+        height: 70px;
+        width: 390px;
+        /* text-align: center; */
+        position: relative;
+        left: 0px;
+        top: 140px;
+        background-color: white;
+        box-shadow: 2px 2px 3px black;
+    }
+    .singup a{cursor: pointer;
+        position: relative;
+            top: 25px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            left: -10px;
+    }
+    .span{
+        position: relative;
+        top: 25px;
+        left: -10px;
+    color: rgba(0,0,0,0.6);
+    
+    }
+    .singup a:hover{
+        color: blue;
+        text-decoration: underline;
+        transition: .5s ease-out;
+    }
+    .frgot{position: relative;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .frgot:hover{
+        color: blue;
+        text-decoration: underline;
+        transition: .5s ease-out;
+    }
+    .forgot
+{
+    width:50%;
+    height:70%;
+    z-index:2;
+     background:#fff;
+     left:300px;
+     position: relative;
+     top:10px;
+     padding: 20px;
+     border-radius: 5px;
+
+}
+.forgot fieldset input[type='text']{
+    border-radius: 1px;
+    height: 30px;
+    width: 300px;
+}
+.forgot fieldset{
+    top:1px;
+}
+.forgot fieldset input[type='Submit'],input[type='button']{
+   width: 100px;
+   height: 40px;
+   outline: none;
+}
+}
+
